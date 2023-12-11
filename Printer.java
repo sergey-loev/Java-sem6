@@ -24,6 +24,7 @@ public class Printer {
 
         System.out.println(myPhoneBook.find(name1));
         System.out.println(PhoneBook.getPhoneBook());
+        System.out.println(myPhoneBook.toString());// сортированный вывод реализовал через переопределение медода "toString()"      
         System.out.println(myPhoneBook.find("Me"));
     }
 }
